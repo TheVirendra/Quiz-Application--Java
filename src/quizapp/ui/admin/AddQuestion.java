@@ -58,7 +58,6 @@ public class AddQuestion extends javax.swing.JFrame {
         background = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(384, 800));
         setMinimumSize(new java.awt.Dimension(384, 800));
 
         jPanel1.setMaximumSize(new java.awt.Dimension(384, 800));
@@ -67,9 +66,9 @@ public class AddQuestion extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("sansserif", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Add Question");
+        jLabel2.setText("ADD QUESTION");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(110, 0, 160, 40);
+        jLabel2.setBounds(110, 0, 190, 40);
 
         jLabel3.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
@@ -153,7 +152,6 @@ public class AddQuestion extends javax.swing.JFrame {
 
         back.setBackground(new java.awt.Color(153, 153, 153));
         back.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
-        back.setForeground(new java.awt.Color(0, 0, 0));
         back.setText("Back");
         back.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -165,7 +163,6 @@ public class AddQuestion extends javax.swing.JFrame {
 
         submit.setBackground(new java.awt.Color(0, 153, 0));
         submit.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
-        submit.setForeground(new java.awt.Color(0, 0, 0));
         submit.setText("Submit");
         submit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -181,14 +178,10 @@ public class AddQuestion extends javax.swing.JFrame {
         jPanel1.add(jLabel8);
         jLabel8.setBounds(10, 40, 70, 30);
 
-        answer.setBackground(new java.awt.Color(255, 255, 255));
         answer.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
-        answer.setForeground(new java.awt.Color(0, 0, 0));
         answer.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "a", "b", "c", "d" }));
         jPanel1.add(answer);
         answer.setBounds(10, 660, 360, 40);
-
-        background.setIcon(new javax.swing.ImageIcon("C:\\Users\\Touhid\\Desktop\\QuizApp-Java-master\\resources\\bakgrounds\\add-question.jpg")); // NOI18N
         jPanel1.add(background);
         background.setBounds(0, 0, 390, 800);
 
